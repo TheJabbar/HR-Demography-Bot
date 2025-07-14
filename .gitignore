@@ -1,0 +1,7 @@
+.env
+env/
+__pycache__/
+logs
+Data.csv
+/data
+locustfile.py

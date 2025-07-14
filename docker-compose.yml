@@ -1,0 +1,14 @@
+services:
+  hcm-insight:
+    image: hcm-insight:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hcm-insight
+    ports:
+      - 7799:7799
+    expose:
+      - 7799
+    volumes:
+      - ./data:/data
+    restart: always

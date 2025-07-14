@@ -1,0 +1,15 @@
+fastapi
+httpx
+loguru
+minio
+pandas
+pydantic
+pysqlite3
+python-dotenv
+python-multipart
+requests
+httpx
+sqlalchemy
+tenacity
+tqdm
+uvicorn
